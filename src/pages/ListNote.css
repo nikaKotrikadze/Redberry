@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0
+}
+
+.listnote{
+    position: relative;
+    width: 1920px;
+    height: 1350px;
+     
+}
+
+.link--and--h1--div{
+
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    left: 70px;
+    top: 53px;
+}
+
+.listnote--h1{
+    position: absolute;
+    width: 312px;
+    height: 21px;
+    left: 804px;
+    top: 79px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 21px;
+    /* identical to box height, or 62% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+
+.the--box{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    
+}
+.each--box{
+    margin:30px;
+
+}
+
+input[type=text]{
+    padding: 15px;
+}
+input[type=email]{
+    padding: 15px;
+}
+input[type=phone]{
+    padding: 15px;
+}
+input[type=Number]{
+    padding: 15px;
+}

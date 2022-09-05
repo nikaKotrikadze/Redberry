@@ -1,0 +1,29 @@
+.nav{
+    display: flex;
+    position: relative;
+    gap:4.125rem;
+    justify-content: center;
+    width: 100%;
+    margin:91px -200px;
+    height: 0;
+
+}
+.nav a{
+    text-decoration: none;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    color: black;
+
+}
+.nav li {
+    list-style: none;
+    text-align: center;
+    width: 235px;
+}
+.nav li.active {
+    border-bottom:  2px solid black;
+    margin-bottom:-35px ;
+  
+}
+

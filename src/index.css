@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.App {
+  margin: 0;
+  padding:0;
+
+}
+
+.logo {
+  display: flex;
+  margin: auto;
+  margin-top: 80px;
+}
+.logo2 {
+  width: 781px;
+  height: 482px;
+  display: flex;
+  margin: auto;
+  margin-top: 85px;
+}
+
+.buttons {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  flex-direction: column;
+  gap: 26px;
+  margin-top: 85px;
+  margin-bottom: 147px;
+}
+
+.Each--Button {
+  width: 387px;
+  height: 60px;
+  background: #62a1eb;
+  border-radius: 8px;
+  border: none;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  cursor: pointer;
+  color: #ffffff;
+}

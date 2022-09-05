@@ -1,0 +1,35 @@
+.lapInfo--h1{
+    position: absolute;
+    width: 309px;
+    height: 21px;
+    left: 806px;
+    top: 76px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.lapInfo--info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.lapInfo--img{
+width: 577px;
+height: 342px;
+display: flex;
+}
+
+.lapInfo--table{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}

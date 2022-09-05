@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+.box--div{
+    width: 563px;
+height: 205px;
+
+background: #EAFAFF;
+/* ლურჯი/300 */
+
+border: 1px solid #AED1EA;
+border-radius: 20px;
+display: flex;
+
+}
+.box--img{
+    width: 266px;
+    height: 178px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 14px 14px;
+}
+
+.box--names{
+    padding: 15px;
+    margin-top: 30px;
+}
+

@@ -1,0 +1,908 @@
+.laptopspecs{
+    position: relative;
+    width: 1920px;
+    height: 1921px;
+    display: flex;
+    background: #F7F7F7;
+}
+
+.laptopspecs--go--back--btn{
+
+    background-color: #D9D9D9;
+    width: 53px;
+    height: 53px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 72px 90px;
+}
+
+.laptopspecs--vector{
+    height: 16px;
+}
+
+.laptop--specs--box{
+    position: absolute;
+    height: 1571px;
+    left: 347px;
+    right: 347px;
+    top: 157px;
+    background: #FFFFFF;
+    border-radius: 18px;
+}
+
+.laptop--specs--drag-n-drop{
+
+position: absolute;
+height: 423px;
+width: 878px;
+left: 174px;
+right: 174px;
+top: 68px;
+background: #F7F7F7;
+/* ლურჯი/700 */
+
+border: 2px dashed #4386A9;
+border-radius: 18px;
+}
+
+.listnote--p{
+    position: absolute;
+width: 195px;
+height: 76px;
+left: calc(50% - 195px/2 + 0.5px);
+top: 175px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 38px;
+/* or 190% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* ლურჯი/700 */
+
+color: #4386A9;
+
+}
+
+.laptop--specs--drag-n-drop>*{
+    margin-top: -50px;
+}
+
+
+.laptop--specs--drag-n-drop>button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px 60px;
+    position: absolute;
+    width: 233px;
+    height: 60px;
+    left: calc(50% - 233px/2 - 0.5px);
+    top: 316px;
+    background: #62A1EB;
+    color:white;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+}
+
+.laptop--specs--p--dnd{
+    position: absolute;
+    width: 195px;
+    height: 76px;
+    left: calc(50% - 195px/2 + 0.5px);
+    top: 175px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+    /* or 190% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* ლურჯი/700 */;
+    color: #4386A9;
+}
+
+.laptop--specs--p--files{
+    position: absolute;
+
+    height: 76px;
+    left: calc(50% - 100px/2 + 0.5px);
+    top: 240px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+
+    /* or 190% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* ლურჯი/700 */;
+    color: #4386A9;
+}
+
+.laptopspecs--input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+    gap: 8px;
+    position: absolute;
+    width: 455px;
+    height: 134px;
+    left: 150px;
+    top: 533px;
+}
+
+
+.lap--NB--select{
+    width: 408px;
+height: 60px;
+
+background: #EBEBEB;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+border: none;
+
+
+
+padding: 8px 24px;
+
+position: absolute;
+width: 408px;
+height: 60px;
+left: calc(50% - 410px/2 + 235px);
+top: 735px;
+
+
+}
+
+.lap--NB--input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 455px;
+    height: 134px;
+    left: 500px;
+    top: 700px;
+}
+
+.lap--NB--input>label{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.lap--NB--input>input{
+    width: 407px;
+    height: 60px;
+    border: 1.8px solid #8AC0E2;
+    border-radius: 8px;
+}
+::placeholder{
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    top: calc(50% - 21px/2 - 0.5px);
+}
+.lap--NB--input p{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #2E2E2E;
+}
+
+.hr-in-ls{
+    position: absolute;
+    height: 0px;
+    display: flex;
+    top: 870px;
+    left: 520px;
+    width: 878px;
+    /* შავი/200 */
+    border: 1px solid #C7C7C7;
+}
+
+.lap--three{
+    display: flex;
+    
+}
+
+.lap--three--select{
+    display: flex;
+padding: 8px 24px;
+
+position: absolute;
+width: 325px;
+height: 76px;
+left: calc(50% - 290px/2 - 300.5px);
+top: 940px;
+
+width: 277px;
+height: 60px;
+
+background: #EBEBEB;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+border: none;
+}
+
+
+.lap--three--input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 324px;
+    height: 134px;
+    left: calc(50% - 324px/2);
+    top: 903px;
+    
+}
+
+.lap--three--input>label{
+    width: 276px;
+height: 21px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height, or 117% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.lap--three--input>input{
+    box-sizing: border-box;
+
+    width: 276px;
+    height: 60px;
+    
+    /* ლურჯი/400 */
+    
+    border: 1.8px solid #8AC0E2;
+    border-radius: 8px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+::placeholder{
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    top: calc(50% - 21px/2 - 0.5px);
+}
+.lap--three--input p{
+    width: 276px;
+    height: 21px;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* შავი/500 */
+    
+    color: #2E2E2E;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+
+
+/**/
+
+.lap--three--input--two{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 324px;
+    height: 134px;
+    left: calc(50% - (-285px)/2);
+    top: 903px;
+    
+}
+
+.lap--three--input--two>label{
+    width: 276px;
+height: 21px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height, or 117% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.lap--three--input--two>input{
+    box-sizing: border-box;
+
+    width: 276px;
+    height: 60px;
+    
+    /* ლურჯი/400 */
+    
+    border: 1.8px solid #8AC0E2;
+    border-radius: 8px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+::placeholder{
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    top: calc(50% - 21px/2 - 0.5px);
+}
+.lap--three--input--two p{
+    width: 276px;
+    height: 21px;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* შავი/500 */
+    
+    color: #2E2E2E;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/**/
+
+
+
+.lap--radio--input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 455px;
+    height: 134px;
+    left: calc(50% - 455px/2 - 235.5px);
+    top: 1060px;
+    
+}
+
+.lap--radio--input>label{
+    width: 276px;
+height: 21px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height, or 117% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.lap--radio--input>input{
+    box-sizing: border-box;
+
+    width: 407px;
+    height: 60px;
+    
+    /* ლურჯი/400 */
+    
+    border: 1.8px solid #8AC0E2;
+    border-radius: 8px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+::placeholder{
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    top: calc(50% - 21px/2 - 0.5px);
+}
+.lap--radio--input p{
+    width: 276px;
+    height: 21px;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* შავი/500 */
+    
+    color: #2E2E2E;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+.lap--radio--form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 455px;
+    height: 134px;
+    left: calc(50% - (-30px)/2);
+    top: 1060px;
+}
+
+.lap--radio--form>h3{
+    font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color:#000000;
+}
+
+.lap--radio--div{
+    display: flex;
+gap:1rem;
+margin-top: 22px;
+}
+
+input[type="radio"]{
+    color:#4D9AC3;
+    width: 20px;
+    font-weight: 600;
+}
+input[type=text]{
+    padding: 10px;
+}
+
+
+.hr-in-lr{
+    position: absolute;
+    height: 0px;
+    display: flex;
+    top: 1230px;
+    left: 520px;
+    width: 878px;
+    /* შავი/200 */
+    border: 1px solid #C7C7C7;
+}
+
+/**/
+.lap--dtpr--input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 455px;
+    height: 105px;
+    left: calc(50% - 455px/2 - 235.5px);
+    top: 1280px;
+    
+}
+
+.lap--dtpr--input>label{
+    width: 276px;
+height: 21px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height, or 117% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.lap--dtpr--input>input{
+    box-sizing: border-box;
+
+    width: 407px;
+    height: 60px;
+    
+    /* ლურჯი/400 */
+    
+    border: 1.8px solid #8AC0E2;
+    border-radius: 8px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+::placeholder{
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    top: calc(50% - 21px/2 - 0.5px);
+}
+.lap--dtpr--input p{
+    width: 276px;
+    height: 21px;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* შავი/500 */
+    
+    color: #2E2E2E;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/**/
+
+
+
+.lap--dtpr--input--two{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 455px;
+    height: 105px;
+    left: calc(50% - 0px/2 );
+    top: 1280px;
+    
+}
+
+.lap--dtpr--input--two>label{
+    width: 276px;
+height: 21px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height, or 117% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.lap--dtpr--input--two>input{
+    box-sizing: border-box;
+
+    width: 408px;
+    height: 60px;
+    
+    /* ლურჯი/400 */
+    
+    border: 1.8px solid #8AC0E2;
+    border-radius: 8px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+::placeholder{
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    top: calc(50% - 21px/2 - 0.5px);
+}
+.lap--dtpr--input--two p{
+    width: 276px;
+    height: 21px;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* შავი/500 */
+    
+    color: #2E2E2E;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.radio--condition--div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 455px;
+    height: 134px;
+    left: calc(50% - (920px)/2);
+    top: 1450px;
+}
+
+.lap--radio--condition>h3{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color:#000000;
+    
+}
+
+.backto--addnote--Btn{
+    position: absolute;
+width: 45px;
+height: 21px;
+left: 520px;
+top: 1650px;
+border: none;
+background-color: transparent;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height, or 117% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.08em;
+
+color: #62A1EB;
+cursor: pointer;
+}
+
+.lapspecs--redlogo{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: calc(50% - 85px/2 - 0.5px);
+    top: 1784px;
+}
+
+.save--form--btn{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor:pointer;  
+    padding: 18px 60px;
+    width: 219px;
+    height: 60px;
+    gap: 20px;
+    right: 530px;
+    top: 1630px;
+    border-radius: 8px;
+    border: none;
+    background: #62A1EB;
+    color: white;
+    font-size: 20px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    cursor: pointer;
+}

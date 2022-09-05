@@ -1,0 +1,149 @@
+.addnote{
+    position: relative;
+    width: 1920px;
+    height: 1327px;
+    display: flex;
+    background: #F7F7F7;
+}
+
+.addnote--go--back--btn{
+    background-color: #D9D9D9;
+    width: 53px;
+    height: 53px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 72px 90px;
+}
+
+.addnote--vector{
+    height: 16px;
+}
+
+.addnote--box{
+    position: absolute;
+    height: 973px;
+    left: 347px;
+    right: 347px;
+    top: 157px;
+    background: #FFFFFF;
+    border-radius: 18px;
+}
+
+.addnote--inputs{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 88px;
+}
+.input--form--names{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.input--form--names>label{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.input--form--names>input{
+    width: 407px;
+    height: 60px;
+    border: 1.8px solid #8AC0E2;
+    border-radius: 8px;
+}
+::placeholder{
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    top: calc(50% - 21px/2 - 0.5px);
+}
+.input--form--names p{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #2E2E2E;
+}
+
+.addnote--select{
+    width: 878px;
+    height: 60px;
+    border:none;
+    background: #EBEBEB;
+    border-radius: 8px;
+    display: flex;
+    margin: auto;
+}
+
+.addnote--selects{
+    display: grid;
+    grid-template: 1fr / 1fr;
+    place-items: center;
+    gap:2rem;
+    margin-top: 44px;
+  }
+
+  .addnote--inputs--grid{
+    display: grid;
+    grid-template: 1fr / 1fr;
+    place-items: center;
+    gap:2rem;
+    margin-top: 44px;
+  }
+
+  .addnote--inputs--grid input{
+    width: 878px;
+    height: 60px;
+  }
+
+  .Next--Submit--Button{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    cursor:pointer;  
+    padding: 18px 60px;
+    width: 176px;
+    height: 60px;
+    gap: 20px;
+    right: 174px;
+    top: 869px;
+    border-radius: 8px;
+    border: none;
+    background: #62A1EB;
+    color: white;
+    font-size: 20px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.redlogo--2{
+    position: absolute;
+width: 85px;
+height: 85px;
+left: calc(50% - 85px/2 - 0.5px);
+top: 1197px;
+}
+.back-to-landing a{
+    height: 60px;
+    width: 60px;
+}
