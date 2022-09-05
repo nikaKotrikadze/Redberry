@@ -1,9 +1,16 @@
+.laptopInfo{
+    position: relative;
+width: 1920px;
+height: 1207px;
+
+background: #FFFFFF;
+}
 .lapInfo--h1{
     position: absolute;
     width: 309px;
     height: 21px;
     left: 806px;
-    top: 76px;
+    top: 0px;
     font-family: 'Helvetica Neue';
     font-style: normal;
     font-weight: 700;
@@ -32,4 +39,19 @@ display: flex;
     display: flex;
     flex-direction: column;
     gap:2rem;
+}
+
+.second-column{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-top: 180px;
+}
+.third-column{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
 }
